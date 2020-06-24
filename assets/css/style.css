@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+
+
+/*****************Navbar*********************/
+
+.navbar {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    background-color: #3b3a3a;
+    min-height: 10px;
+}
+
+.navbar a {
+    color: #fafafa;
+}
+
+/*****************Hero-image*********************/
+
+#hero-image {
+
+    background-image: url("https://cdn.pixabay.com/photo/2017/05/09/09/15/edinburgh-2297668_1280.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    
+}
+
+/*****************Footer*********************/
+
+#position-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 17px;
+    line-height: 7px;
+    text-align: center;
+    color: #3b3a3a;
+    background: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
+}
