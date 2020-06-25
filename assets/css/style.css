@@ -13,13 +13,18 @@
 .navbar {
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
-    background-color: #2e74db;
+    background-color: #0c489f;
     min-height: 8px;
 }
 
 .navbar a {
     color: #fafafa;
 }
+
+.navbar a:hover {
+    font-size: 130%;
+}
+
 
 /*****************Hero-image*********************/
 
@@ -48,11 +53,25 @@
 #hero-button {
     margin-top: 5px;
     font-family: 'Lato', sans-serif;
-    background-color: #2e74db;
+    background-color: #0c489f;
+    border: none;
     font-size: 90%;
-
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
+#hero-button:hover {
+    text-transform: uppercase;
+}
+
+#hero-button:focus {
+    text-transform: uppercase;
+    color: #0c489f;
+    background-color: #fafafa;
+    border: 1px solid #0c489f;
+}
 
 
 /*****************Footer*********************/
