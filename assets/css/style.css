@@ -37,6 +37,12 @@
     
 }
 
+@media only screen and (min-width:600px) {
+    #hero-image {
+     background-image:linear-gradient(rgb(103, 98, 98), rgba(17, 17, 17, 0.5)), url("https://cdn.pixabay.com/photo/2019/04/22/08/58/edinburgh-4146031_1280.jpg");
+    }
+}
+
 /*Adapted from Jonas tutorial */
 
 .hero-text-box {
@@ -49,6 +55,7 @@
     font-weight: 700;
     text-align: center;
 }
+
 
 #hero-button {
     margin-top: 5px;
