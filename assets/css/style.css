@@ -5,10 +5,7 @@
 }
 
 
-
-
-
-/*****************Navbar*********************/
+/*****************Navbars*********************/
 
 .navbar {
     text-transform: uppercase;
@@ -25,6 +22,20 @@
     font-size: 130%;
 }
 
+
+/*****************Page-intros********************/
+
+.page-intro {
+    text-align: center;
+    margin: 75px 0 25px 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.page-intro h1 {
+      text-transform: uppercase;
+      word-spacing: 3px;
+      letter-spacing: -1px;
+}
 
 /*****************Hero-image*********************/
 
@@ -54,6 +65,12 @@
     font-family: 'Amatic SC', cursive;
     font-weight: 700;
     text-align: center;
+}
+
+@media only screen and (min-width:600px) {
+    #landing-page-heading {
+        margin-bottom: 50px;
+    }
 }
 
 
