@@ -22,13 +22,54 @@
     font-size: 130%;
 }
 
+/******************************Buttons************************/
+
+#hero-button {
+    margin-top: 5px;
+    font-family: 'Lato', sans-serif;
+    background-color: #0c489f;
+    border: none;
+    font-size: 90%;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+#hero-button:hover {
+    text-transform: uppercase;
+}
+
+#hero-button:focus {
+    text-transform: uppercase;
+    color: #0c489f;
+    background-color: #fafafa;
+    border: 1px solid #0c489f;
+}
+
+.buy-now-btn {
+    margin: 5px 0px 15px 10px;
+    text-align: center;
+    left: 50%;
+}
+
+.buy-now-btn:hover {
+    text-transform: uppercase;
+}
+
 
 /*****************Page-intros********************/
 
 .page-intro {
     text-align: center;
-    margin: 75px 0 25px 0;
+    margin-top: 15%;
     font-family: 'Lato', sans-serif;
+}
+
+@media only screen and (min-width:600px) {
+    .page-intro {
+     margin-top: 75px;
+    }
 }
 
 .page-intro h1 {
@@ -73,29 +114,7 @@
     }
 }
 
-
-#hero-button {
-    margin-top: 5px;
-    font-family: 'Lato', sans-serif;
-    background-color: #0c489f;
-    border: none;
-    font-size: 90%;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-#hero-button:hover {
-    text-transform: uppercase;
-}
-
-#hero-button:focus {
-    text-transform: uppercase;
-    color: #0c489f;
-    background-color: #fafafa;
-    border: 1px solid #0c489f;
-}
+/*****************Books page ****************/
 
 
 /*****************Footer*********************/
