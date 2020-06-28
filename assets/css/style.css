@@ -70,6 +70,7 @@
     text-transform: uppercase;
     display: block;
     text-align: center;
+    color: rgb(73, 71, 71);
 }
 
 @media only screen and (min-width:600px) {
@@ -201,7 +202,6 @@
     width: 30%;
     height: 30%;
     padding: 2%
-    float: left;
 }
 
 @media only screen and (min-width:600px) {
@@ -212,3 +212,41 @@
     }
 }
 
+.genre h3 {
+    text-align: center;
+    color: #0c489f;
+    text-transform: uppercase;
+}
+
+#closing h4 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #0c489f;
+    margin: 5% 0 5% 0;;
+}
+
+#closing p {
+    color: #373d3f;
+    padding-left: 5%;
+    padding-right: 1%;
+}
+
+@media only screen and (min-width:600px) {
+#closing p {
+    padding: 1%;
+    text-align: center;
+    }
+}
+
+#fade-out-photo {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20%;
+}
+
+@media only screen and (min-width:600px) {
+#fade-out-photo {
+    padding-bottom: 10%;
+    }
+}
