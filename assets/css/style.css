@@ -57,12 +57,26 @@
     text-transform: uppercase;
 }
 
-/*****************Images****************/
-
-.book-img {
-    width: 10%;
-    height: 10%;
+@media only screen and (min-width:600px) {
+.buy-now-btn {
+    margin: 1px 0px 1px 3px;
+    text-align: center;
+    left: 50%;
+    }
 }
+
+
+.top-return {
+    padding: 5%;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width:600px) {
+.top-return {
+    padding: 1%;
+    }
+}
+
 
 
 /*****************Page-intros********************/
@@ -157,3 +171,43 @@
 #footer-details {
     padding: 20px;
 }
+
+
+/******************Books page ***********************/ 
+
+.genre {
+    color: #373d3f;
+    padding: 5% 0 0 5%;
+}
+
+@media only screen and (min-width:600px) {
+.genre {
+    padding: 3% 0 0 1%;
+    }
+}
+
+.book {
+    color: #373d3f;
+    padding: 5%;
+}
+
+@media only screen and (min-width:600px) {
+.book {
+    padding: 1%;
+    }
+}
+
+.book-img {
+    width: 30%;
+    height: 30%;
+    padding: 2%
+}
+
+@media only screen and (min-width:600px) {
+.book-img {
+    width: 15%;
+    height: 15%;
+    padding: 1% 0 1% 0;
+    }
+}
+
