@@ -48,9 +48,8 @@
 }
 
 .buy-now-btn {
-    margin: 5px 0px 15px 10px;
+    display: block;
     text-align: center;
-    left: 50%;
 }
 
 .buy-now-btn:hover {
@@ -69,6 +68,8 @@
 .top-return {
     padding: 5%;
     text-transform: uppercase;
+    display: block;
+    text-align: center;
 }
 
 @media only screen and (min-width:600px) {
@@ -83,18 +84,17 @@
 
 .page-intro {
     text-align: center;
-    margin-top: 15%;
+    margin-top: 25%;
     font-family: 'Lato', sans-serif;
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:400px) {
     .page-intro {
      margin-top: 75px;
     }
 }
 
 .page-intro h1 {
-      text-transform: uppercase;
       word-spacing: 3px;
       letter-spacing: -1px;
 }
@@ -201,6 +201,7 @@
     width: 30%;
     height: 30%;
     padding: 2%
+    float: left;
 }
 
 @media only screen and (min-width:600px) {
