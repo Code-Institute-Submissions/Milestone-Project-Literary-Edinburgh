@@ -216,12 +216,21 @@
     float: left; 
 }
 
+@media only screen and (min-width:600px) {
+.book-img {
+    max-width: 15%;
+    }
+}
 
 
 .genre h3 {
     text-align: center;
     color: #0c489f;
     text-transform: uppercase;
+}
+
+.genre p {
+    text-align: center;
 }
 
 #closing h4 {
