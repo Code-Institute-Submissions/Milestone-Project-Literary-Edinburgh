@@ -22,6 +22,11 @@
     font-size: 130%;
 }
 
+.genre-navbar {
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+}
+
 /******************************Buttons************************/
 
 #hero-button {
@@ -48,8 +53,10 @@
 }
 
 .buy-now-btn {
-    display: block;
+    display: inline;
     text-align: center;
+    position: relative;
+    left: 35%;
 }
 
 .buy-now-btn:hover {
@@ -60,7 +67,6 @@
 .buy-now-btn {
     margin: 1px 0px 1px 3px;
     text-align: center;
-    left: 50%;
     }
 }
 
@@ -195,10 +201,20 @@
 
 @media only screen and (min-width:600px) {
 .book {
-    padding: 1%;
+    padding: 5%;
+    display: block;
     }
 }
 
+.book p {
+    margin-bottom: 11%;
+}
+
+@media only screen and (min-width:600px) {
+.book p {
+    padding-top: 25px;
+    }
+}
 .book h4 {
     text-align: center;
 }
@@ -210,7 +226,7 @@
 .book-img {
     max-width: 25%;
     height: auto%;
-    padding: 3% 2% 5% 2%;
+    padding: 3% 2% 0 2%;
     margin-right: 2px;
     display: inline;
     float: left; 
@@ -219,6 +235,8 @@
 @media only screen and (min-width:600px) {
 .book-img {
     max-width: 15%;
+    display: block;
+    padding-bottom: 5%;
     }
 }
 
