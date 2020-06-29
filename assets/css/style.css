@@ -189,7 +189,8 @@
 
 .book {
     color: #373d3f;
-    padding: 5%;
+    padding: 0 5% 5% 5%;
+    display: inline;
 }
 
 @media only screen and (min-width:600px) {
@@ -198,19 +199,24 @@
     }
 }
 
-.book-img {
-    width: 30%;
-    height: 30%;
-    padding: 2%
+.book h4 {
+    text-align: center;
 }
 
-@media only screen and (min-width:600px) {
-.book-img {
-    width: 15%;
-    height: 15%;
-    padding: 1% 0 1% 0;
-    }
+.book h5 {
+    text-align: center;
 }
+
+.book-img {
+    max-width: 25%;
+    height: auto%;
+    padding: 3% 2% 5% 2%;
+    margin-right: 2px;
+    display: inline;
+    float: left; 
+}
+
+
 
 .genre h3 {
     text-align: center;
