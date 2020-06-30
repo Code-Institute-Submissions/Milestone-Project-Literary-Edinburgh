@@ -52,11 +52,10 @@
     border: 1px solid #0c489f;
 }
 
+}
+
 .buy-now-btn {
     display: inline;
-    text-align: center;
-    position: relative;
-    left: 35%;
 }
 
 .buy-now-btn:hover {
