@@ -27,6 +27,13 @@
     margin-bottom: 10%;
 }
 
+@media only screen and (min-width:600px) {
+.genre-navbar {
+    margin-bottom: 0;
+    padding-bottom: 1%;
+    }
+}
+
 /******************************Buttons************************/
 
 #hero-button {
@@ -72,6 +79,7 @@
 
 .top-return {
     padding: 5%;
+    margin-top: 5%;
     text-transform: uppercase;
     display: block;
     text-align: center;
@@ -200,7 +208,7 @@
 
 @media only screen and (min-width:600px) {
 .book {
-    padding: 5%;
+    padding: 1%;
     display: block;
     }
 }
@@ -211,31 +219,55 @@
 
 @media only screen and (min-width:600px) {
 .book p {
-    padding-top: 25px;
+     padding-bottom: 3%;
+    }
+}
+
+@media only screen and (min-width:600px) {
+.book p {
+    padding-top: 2px;
+    margin-top: 0;
+    margin-bottom: 10px;
     }
 }
 .book h4 {
     text-align: center;
+    margin-top: 3%;
+}
+
+@media only screen and (min-width:600px) {
+.book h4 {
+    padding-top: 4%;
+    }
 }
 
 .book h5 {
     text-align: center;
 }
 
+
+
 .book-img {
     max-width: 25%;
     height: auto%;
     padding: 3% 2% 0 2%;
     margin-right: 2px;
+    margin-bottom: 0;
     display: inline;
-    float: left; 
+    float: left;
 }
 
 @media only screen and (min-width:600px) {
 .book-img {
-    max-width: 15%;
+    max-width: 17%;
+    float: none;
     display: block;
-    padding-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 2%;
+    width: 50%;
+
     }
 }
 
@@ -244,12 +276,20 @@
     text-align: center;
     color: #0c489f;
     text-transform: uppercase;
+    font-size: 250%;
 }
 
-.genre p {
-    text-align: center;
+@media only screen and (min-width:600px) {
+.genre h3 {
+    font-weight: bold;
+    font-size: 400%;
+    }
 }
 
+
+
+
+/******************Books page closing *********************/
 #closing h4 {
     text-transform: uppercase;
     text-align: center;
@@ -269,6 +309,7 @@
     text-align: center;
     }
 }
+
 
 #fade-out-photo {
     display: block;
