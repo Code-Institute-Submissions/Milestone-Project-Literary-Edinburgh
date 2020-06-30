@@ -113,6 +113,20 @@
       letter-spacing: -1px;
 }
 
+@media only screen and (min-width:400px) {
+    .page-intro h1 {
+        font-size: 300%;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+@media only screen and (min-width:400px) {
+    .page-intro p {
+        font-size: 200%;
+    }
+}
+
 /*****************Hero-image*********************/
 
 #hero-image {
@@ -228,6 +242,7 @@
     padding-top: 2px;
     margin-top: 0;
     margin-bottom: 10px;
+    font-size: 150%;
     }
 }
 .book h4 {
@@ -286,7 +301,11 @@
     }
 }
 
-
+@media only screen and (min-width:600px) {
+#classics {
+    margin-top: 4%;
+    }
+}
 
 
 /******************Books page closing *********************/
