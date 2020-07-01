@@ -102,28 +102,40 @@
     font-family: 'Lato', sans-serif;
 }
 
+@media only screen and (max-width:3800px) {
+    .page-intro {
+     margin-top: 115px;
+    }
+}
+
 @media only screen and (min-width:400px) {
     .page-intro {
      margin-top: 75px;
     }
 }
 
+
 .page-intro h1 {
       word-spacing: 3px;
-      letter-spacing: -1px;
+      letter-spacing: 2px;
+      font-family: 'Amatic SC', cursive;
 }
 
 @media only screen and (min-width:400px) {
     .page-intro h1 {
-        font-size: 300%;
+        font-size: 500%;
         font-weight: bold;
         text-transform: uppercase;
     }
 }
 
+.page-intro p {
+    font-family: cursive;
+}
+
 @media only screen and (min-width:400px) {
     .page-intro p {
-        font-size: 200%;
+        font-size: 150%;
     }
 }
 
@@ -297,7 +309,7 @@
 @media only screen and (min-width:600px) {
 .genre h3 {
     font-weight: bold;
-    font-size: 400%;
+    font-size: 300%;
     }
 }
 
@@ -320,6 +332,7 @@
     color: #373d3f;
     padding-left: 5%;
     padding-right: 1%;
+    font-size: 150%;
 }
 
 @media only screen and (min-width:600px) {
