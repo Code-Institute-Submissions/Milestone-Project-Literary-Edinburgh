@@ -358,14 +358,12 @@
 
 /************************************Sights page ***********************************/
 
-.gallery-row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+.gallery-img {
+    width: 100%;
 }
 
-.gallery-col {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+.caption {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
 }
