@@ -110,7 +110,7 @@
 
 @media only screen and (min-width:400px) {
     .page-intro {
-     margin-top: 75px;
+     margin-top: 80px;
     }
 }
 
@@ -118,19 +118,19 @@
 .page-intro h1 {
       word-spacing: 3px;
       letter-spacing: 2px;
-      font-family: 'Amatic SC', cursive;
+      font-family: 'Amatic SC', sans-serif;
 }
 
 @media only screen and (min-width:400px) {
     .page-intro h1 {
-        font-size: 500%;
+        font-size: 450%;
         font-weight: bold;
         text-transform: uppercase;
     }
 }
 
 .page-intro p {
-    font-family: cursive;
+    font-family: "Lato", Times;
 }
 
 @media only screen and (min-width:400px) {
@@ -357,9 +357,14 @@
 }
 
 /************************************Sights page ***********************************/
+#sights-intro {
+    padding-top: 2.5%;
+}
 
 .gallery-img {
-    width: 100%;
+    width: 80%;
+    margin: 0;
+    padding: 0;
 }
 
 .caption {
