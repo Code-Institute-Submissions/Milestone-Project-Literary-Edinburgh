@@ -357,14 +357,19 @@
 
 /************************************Sights page ***********************************/
 
-.gallery-img {
-    width: 80%;
-    margin: 0;
-    padding: 0;
+
+
+.figure-container {
 }
 
-.caption {
+.figure fig-caption {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
+}
+
+.figure img {
+   width: 100%;
+   height: auto;
+   display: block;
 }
