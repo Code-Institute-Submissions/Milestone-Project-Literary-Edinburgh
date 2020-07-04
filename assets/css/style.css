@@ -356,20 +356,33 @@
 }
 
 /************************************Sights page ***********************************/
-
-
-
-.figure-container {
-}
-
-.figure fig-caption {
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: center;
+.figure {
+  text-align: center;
+  color: white;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
 }
 
 .figure img {
    width: 100%;
    height: auto;
    display: block;
+}
+
+.figure fig-caption {
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 250%
+}
+
+.caption-vertical {
+    left: 30%;
+    font-size: 200%;
 }
