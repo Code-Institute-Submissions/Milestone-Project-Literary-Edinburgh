@@ -98,7 +98,6 @@
 
 .page-intro {
     text-align: center;
-    margin-top: 25%;
     font-family: 'Lato', sans-serif;
 }
 
@@ -357,9 +356,6 @@
 }
 
 /************************************Sights page ***********************************/
-#sights-intro {
-    padding-top: 2.5%;
-}
 
 .gallery-img {
     width: 80%;
