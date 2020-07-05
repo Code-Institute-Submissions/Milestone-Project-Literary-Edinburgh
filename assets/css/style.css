@@ -221,6 +221,18 @@
 
 /******************Books page ***********************/ 
 
+@media only screen and (max-width:430px) and (min-width:410px) {
+#books-intro  {
+    padding-top: 12%;
+    }
+}
+
+@media only screen and (max-height:740px) and (min-height:735px) {
+#books-intro  {
+    padding-top: 1%;
+    }
+}
+
 .genre {
     color: #373d3f;
     padding: 5% 0 0 5%;
