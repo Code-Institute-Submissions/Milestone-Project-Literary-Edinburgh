@@ -369,6 +369,7 @@
    width: 100%;
    height: auto;
    display: block;
+   filter: brightness(60%);
 }
 
 .figure fig-caption {
