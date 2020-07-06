@@ -387,8 +387,6 @@
     }
 }
 
-
-
 .figure {
   text-align: center;
   color: white;
@@ -419,4 +417,78 @@
 .caption-vertical {
     left: 30%;
     font-size: 200%;
+}
+
+.sight-type {
+   color: #373d3f;
+    padding: 0 5% 5% 5%;
+    display: inline; 
+    text-align: center;
+}
+
+.sight-type h3 {
+    text-align: center;
+    color: #0c489f;
+    text-transform: uppercase;
+    font-size: 250%;
+}
+
+@media only screen and (min-width:600px) {
+.sight-type h3 {
+    font-weight: bold;
+    font-size: 300%;
+    }
+}
+
+.sight-type p {
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.sight {
+    color: #373d3f;
+    padding: 0 5% 5% 5%;
+    display: inline;
+}
+
+.sight h4 {
+    text-align: center;
+}
+
+@media only screen and (min-width:600px) {
+.sight h4 {
+    font-weight: bold;
+    font-size: 200%;
+    }
+}
+
+.sight p {
+    text-align: left;
+    margin: 1% 2% 0% 2%;
+}
+
+@media only screen and (min-width:600px) {
+.sight-type p, 
+.sight p {
+    font-size: 150%;
+    }
+}
+
+.sight-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+  width: 50%;
+  display: block;
+  /**Image-centering code from: https://www.w3schools.com/howto/howto_css_image_center.asp **/
+}
+
+.embed-responsive {
+  width: 50%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+  margin-top: 3%;
 }
