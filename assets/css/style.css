@@ -403,6 +403,14 @@
    filter: brightness(50%);
 }
 
+.figure:hover {
+    color: yellow;
+}
+
+.figure img:hover {
+   filter: brightness(100%);
+}
+
 .figure fig-caption {
     text-decoration: none;
     text-transform: uppercase;
@@ -419,12 +427,8 @@
     font-size: 200%;
 }
 
-@media only screen and (min-width:1400px) {
-#calton-hill {
-    width: 110%;
-    height: auto;
-    }
-}
+
+
 
 .sight-type {
    color: #373d3f;
