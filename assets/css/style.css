@@ -419,6 +419,13 @@
     font-size: 200%;
 }
 
+@media only screen and (min-width:1400px) {
+#calton-hill {
+    width: 110%;
+    height: auto;
+    }
+}
+
 .sight-type {
    color: #373d3f;
     padding: 0 5% 5% 5%;
