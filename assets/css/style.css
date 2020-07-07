@@ -48,14 +48,20 @@
     background-color: #0c489f;
     border: none;
     font-size: 90%;
+    text-decoration: none;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
 
+#hero-button a {
+    color: white;
+}
+
 #hero-button:hover {
     text-transform: uppercase;
+    color: #0c489f;
 }
 
 #hero-button:focus {
@@ -403,9 +409,6 @@
    filter: brightness(50%);
 }
 
-.figure:hover {
-    color: yellow;
-}
 
 .figure img:hover {
    filter: brightness(100%);
@@ -422,12 +425,16 @@
     font-size: 250%
 }
 
+@media only screen and (min-width:600px) {
+.figure fig-caption {
+    font-size: 300%;
+    }
+}
+
 .caption-vertical {
     left: 30%;
     font-size: 200%;
 }
-
-
 
 
 .sight-type {
