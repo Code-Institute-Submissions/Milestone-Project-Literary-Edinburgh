@@ -168,7 +168,8 @@
     }
 }
 
-/*Adapted from Jonas tutorial */
+/*Adapted from a tutorial on the following Udemy course: https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/ 
+Though the images, linear-gradient values, and button differ from those given on the course*/
 
 .hero-text-box {
     position: absolute;
