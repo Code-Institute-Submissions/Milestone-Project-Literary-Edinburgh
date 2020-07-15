@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    font-size: 10px;
 }
 
 
@@ -9,12 +10,12 @@
 
 .navbar {
     text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', 'Times', sans-serif;
     background-color: #0c489f;
-    min-height: 8px;
+    min-height: 0.8rem;
 }
 
-@media only screen and (min-width:400px, max-width:450px) {
+@media only screen and (min-width:40rem, max-width:45rem) {
 .navbar {
     padding-bottom: 0;
     }
@@ -33,7 +34,7 @@
     margin-bottom: 10%;
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:60rem) {
 .genre-navbar {
     margin-bottom: 0;
     padding-bottom: 1%;
@@ -43,8 +44,8 @@
 /******************************Buttons************************/
 
 #hero-button {
-    margin-top: 5px;
-    font-family: 'Lato', sans-serif;
+    margin-top: 0.5rem;
+    font-family: 'Lato', 'Times', sans-serif;
     background-color: #0c489f;
     border: none;
     font-size: 90%;
@@ -82,9 +83,9 @@
     text-transform: uppercase;
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:60rem) {
 .buy-now-btn {
-    margin: 1px 0px 1px 3px;
+    margin: 0.1rem 0 0.1rem 0.3rem;
     text-align: center;
     }
 }
@@ -99,7 +100,7 @@
     color: rgb(73, 71, 71);
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:60rem) {
 .top-return {
     padding: 1%;
     }
@@ -111,18 +112,18 @@
 
 .page-intro {
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', 'Times', sans-serif;
 }
 
-@media only screen and (max-width:3800px) {
+@media only screen and (max-width:380rem) {
     .page-intro {
-     margin-top: 115px;
+     margin-top: 11.5rem;
     }
 }
 
-@media only screen and (min-width:400px) {
+@media only screen and (min-width:40rem) {
     .page-intro {
-     margin-top: 80px;
+     margin-top: 8rem;
     }
 }
 
@@ -133,7 +134,7 @@
       font-family: 'Amatic SC', sans-serif;
 }
 
-@media only screen and (min-width:450px) {
+@media only screen and (min-width:45rem) {
     .page-intro h1 {
         font-size: 450%;
         font-weight: bold;
@@ -142,10 +143,10 @@
 }
 
 .page-intro p {
-    font-family: "Lato", Times;
+    font-family: 'Lato', 'Times', sans-serif;
 }
 
-@media only screen and (min-width:400px) {
+@media only screen and (min-width:40rem) {
     .page-intro p {
         font-size: 150%;
     }
@@ -162,7 +163,7 @@
     
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:60rem) {
     #hero-image {
      background-image:linear-gradient(rgb(103, 98, 98), rgba(17, 17, 17, 0.5)), url("https://cdn.pixabay.com/photo/2019/04/22/08/58/edinburgh-4146031_1280.jpg");
     }
@@ -182,9 +183,9 @@ Though the images, linear-gradient values, and button differ from those given on
     text-align: center;
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:60rem) {
     #landing-page-heading {
-        margin-bottom: 50px;
+        margin-bottom: 5rem;
     }
 }
 
@@ -202,12 +203,12 @@ Though the images, linear-gradient values, and button differ from those given on
 /*adapted from Resume mini-project*/
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
+    width: 3.2rem;
+    height: 3.2rem;
+    padding: 1.2rem 0;
     border-radius: 50%;
-    font-size: 17px;
-    line-height: 7px;
+    font-size: 1.7rem;
+    line-height: 0.7rem;
     text-align: center;
     color: #fafafa;
     background: #696767;
@@ -222,19 +223,19 @@ Though the images, linear-gradient values, and button differ from those given on
 }
 
 #footer-details {
-    padding: 20px;
+    padding: 2rem;
 }
 
 
 /******************Books page ***********************/ 
 
-@media only screen and (max-width:430px) and (min-width:410px) {
+@media only screen and (max-width:43rem) and (min-width:41rem) {
 #books-intro  {
     padding-top: 12%;
     }
 }
 
-@media only screen and (max-height:740px) and (min-height:735px) {
+@media only screen and (max-height:74rem) and (min-height:73.5rem) {
 #books-intro  {
     padding-top: 1%;
     }
@@ -245,7 +246,7 @@ Though the images, linear-gradient values, and button differ from those given on
     padding: 5% 0 0 5%;
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:60rem) {
 .genre {
     padding: 3% 0 0 1%;
     }
@@ -257,7 +258,7 @@ Though the images, linear-gradient values, and button differ from those given on
     display: inline;
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:60rem) {
 .book {
     padding: 1%;
     display: block;
@@ -268,17 +269,17 @@ Though the images, linear-gradient values, and button differ from those given on
     margin-bottom: 11%;
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:60rem) {
 .book p {
      padding-bottom: 3%;
     }
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:60rem) {
 .book p {
-    padding-top: 2px;
+    padding-top: 0.2rem;
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
     font-size: 150%;
     }
 }
@@ -287,7 +288,7 @@ Though the images, linear-gradient values, and button differ from those given on
     margin-top: 3%;
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:60rem) {
 .book h4 {
     padding-top: 4%;
     }
@@ -302,14 +303,14 @@ Though the images, linear-gradient values, and button differ from those given on
 .book-img {
     max-width: 25%;
     height: auto%;
-    padding: 3% 2% 0 2%;
-    margin-right: 2px;
+    padding: 1% 2% 0 2%;
+    margin-right: 0.6rem;
     margin-bottom: 0;
     display: inline;
     float: left;
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:60rem) {
 .book-img {
     max-width: 17%;
     float: none;
@@ -331,14 +332,14 @@ Though the images, linear-gradient values, and button differ from those given on
     font-size: 250%;
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:60rem) {
 .genre h3 {
     font-weight: bold;
     font-size: 300%;
     }
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:60rem) {
 #classics {
     margin-top: 4%;
     }
@@ -360,7 +361,7 @@ Though the images, linear-gradient values, and button differ from those given on
     font-size: 150%;
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:60rem) {
 #closing p {
     padding: 1%;
     text-align: center;
@@ -375,20 +376,20 @@ Though the images, linear-gradient values, and button differ from those given on
     padding-bottom: 20%;
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:60rem) {
 #fade-out-photo {
     padding-bottom: 10%;
     }
 }
 
 /************************************Sights page ***********************************/
-@media only screen and (max-width:430px) and (min-width:410px) {
+@media only screen and (max-width:43rem) and (min-width:41rem) {
 #sights-intro  {
     padding-top: 10%;
     }
 }
 
-@media only screen and (max-height:740px) and (min-height:735px) {
+@media only screen and (max-height:74rem) and (min-height:73.5rem) {
 #sights-intro  {
     padding-top: 1%;
     }
@@ -426,7 +427,7 @@ Though the images, linear-gradient values, and button differ from those given on
     font-size: 250%
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:60rem) {
 .figure fig-caption {
     font-size: 300%;
     }
@@ -452,7 +453,7 @@ Though the images, linear-gradient values, and button differ from those given on
     font-size: 250%;
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:60rem) {
 .sight-type h3 {
     font-weight: bold;
     font-size: 300%;
@@ -475,7 +476,7 @@ Though the images, linear-gradient values, and button differ from those given on
     text-align: center;
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:60rem) {
 .sight h4 {
     font-weight: bold;
     font-size: 200%;
@@ -487,7 +488,7 @@ Though the images, linear-gradient values, and button differ from those given on
     margin: 1% 2% 0% 2%;
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:60rem) {
 .sight-type p, 
 .sight p {
     font-size: 150%;
