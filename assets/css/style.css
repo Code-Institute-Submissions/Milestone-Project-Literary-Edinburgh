@@ -5,6 +5,31 @@
     font-size: 10px;
 }
 
+/*****************Font sizes*********************/
+
+h1 {
+    font-size:5.5rem;
+}
+
+h2 {
+    font-size:5rem;
+}
+
+h3 {
+    font-size:4.5rem;
+}
+
+h4 {
+    font-size:3rem;
+}
+
+h5 {
+    font-size:2rem;
+}
+
+p {
+    font-size:1.5rem;
+}
 
 /*****************Navbars*********************/
 
@@ -15,14 +40,9 @@
     min-height: 0.8rem;
 }
 
-@media only screen and (min-width:40rem, max-width:45rem) {
-.navbar {
-    padding-bottom: 0;
-    }
-}
-
 .navbar a {
     color: #fafafa;
+    font-size: 1.2rem;
 }
 
 .navbar a:hover {
@@ -32,13 +52,6 @@
 .genre-navbar {
     padding-bottom: 5%;
     margin-bottom: 10%;
-}
-
-@media only screen and (min-width:60rem) {
-.genre-navbar {
-    margin-bottom: 0;
-    padding-bottom: 1%;
-    }
 }
 
 /******************************Buttons************************/
@@ -58,6 +71,7 @@
 
 #hero-button a {
     color: white;
+    font-size: 1.5rem;
 }
 
 #hero-button:hover {
@@ -72,24 +86,15 @@
     border: 1px solid #0c489f;
 }
 
-
-
 .buy-now-btn {
     display: inline;
+    font-size: 1.5rem;
    
 }
 
 .buy-now-btn:hover {
     text-transform: uppercase;
 }
-
-@media only screen and (min-width:60rem) {
-.buy-now-btn {
-    margin: 0.1rem 0 0.1rem 0.3rem;
-    text-align: center;
-    }
-}
-
 
 .top-return {
     padding: 5%;
@@ -98,16 +103,8 @@
     display: block;
     text-align: center;
     color: rgb(73, 71, 71);
+    font-size: 2rem;
 }
-
-@media only screen and (min-width:60rem) {
-.top-return {
-    padding: 1%;
-    }
-}
-
-
-
 /*****************Page-intros********************/
 
 .page-intro {
@@ -116,31 +113,15 @@
     margin-top: 5.5rem;
 }
 
-
-
-
 .page-intro h1 {
       word-spacing: 3px;
       letter-spacing: 2px;
       font-family: 'Amatic SC', sans-serif;
-}
-
-@media only screen and (min-width:45rem) {
-    .page-intro h1 {
-        font-size: 450%;
-        font-weight: bold;
-        text-transform: uppercase;
-    }
+      font-size:2.75rem;
 }
 
 .page-intro p {
     font-family: 'Lato', 'Times', sans-serif;
-}
-
-@media only screen and (min-width:40rem) {
-    .page-intro p {
-        font-size: 150%;
-    }
 }
 
 /*****************Hero-image*********************/
@@ -152,12 +133,6 @@
     height: 100vh;
     background-size: 100% 100%;
     
-}
-
-@media only screen and (min-width:60rem) {
-    #hero-image {
-     background-image:linear-gradient(rgb(103, 98, 98), rgba(17, 17, 17, 0.5)), url("https://cdn.pixabay.com/photo/2019/04/22/08/58/edinburgh-4146031_1280.jpg");
-    }
 }
 
 /*Adapted from a tutorial on the following Udemy course: https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/ 
@@ -173,15 +148,6 @@ Though the images, linear-gradient values, and button differ from those given on
     font-weight: 700;
     text-align: center;
 }
-
-@media only screen and (min-width:60rem) {
-    #landing-page-heading {
-        margin-bottom: 5rem;
-    }
-}
-
-
-
 
 /*****************Footer*********************/
 
@@ -219,28 +185,9 @@ Though the images, linear-gradient values, and button differ from those given on
 
 
 /******************Books page ***********************/ 
-
-@media only screen and (max-width:43rem) and (min-width:41rem) {
-#books-intro  {
-    padding-top: 12%;
-    }
-}
-
-@media only screen and (max-height:74rem) and (min-height:73.5rem) {
-#books-intro  {
-    padding-top: 1%;
-    }
-}
-
 .genre {
     color: #373d3f;
     padding: 5% 0 0 5%;
-}
-
-@media only screen and (min-width:60rem) {
-.genre {
-    padding: 3% 0 0 1%;
-    }
 }
 
 .book {
@@ -248,48 +195,21 @@ Though the images, linear-gradient values, and button differ from those given on
     padding: 0 5% 5% 5%;
     display: inline;
 }
-
-@media only screen and (min-width:60rem) {
-.book {
-    padding: 1%;
-    display: block;
-    }
-}
-
 .book p {
     margin-bottom: 11%;
+    font-size: 1.5rem;
 }
 
-@media only screen and (min-width:60rem) {
-.book p {
-     padding-bottom: 3%;
-    }
-}
-
-@media only screen and (min-width:60rem) {
-.book p {
-    padding-top: 0.2rem;
-    margin-top: 0;
-    margin-bottom: 1rem;
-    font-size: 150%;
-    }
-}
 .book h4 {
     text-align: center;
     margin-top: 3%;
-}
-
-@media only screen and (min-width:60rem) {
-.book h4 {
-    padding-top: 4%;
-    }
+    font-size: 3rem;
 }
 
 .book h5 {
     text-align: center;
+    font-size: 2rem;
 }
-
-
 
 .book-img {
     max-width: 25%;
@@ -301,41 +221,12 @@ Though the images, linear-gradient values, and button differ from those given on
     float: left;
 }
 
-@media only screen and (min-width:60rem) {
-.book-img {
-    max-width: 17%;
-    float: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 2%;
-    width: 50%;
-
-    }
-}
-
-
 .genre h3 {
     text-align: center;
     color: #0c489f;
     text-transform: uppercase;
     font-size: 250%;
 }
-
-@media only screen and (min-width:60rem) {
-.genre h3 {
-    font-weight: bold;
-    font-size: 300%;
-    }
-}
-
-@media only screen and (min-width:60rem) {
-#classics {
-    margin-top: 4%;
-    }
-}
-
 
 /******************Books page closing *********************/
 #closing h4 {
@@ -352,14 +243,6 @@ Though the images, linear-gradient values, and button differ from those given on
     font-size: 150%;
 }
 
-@media only screen and (min-width:60rem) {
-#closing p {
-    padding: 1%;
-    text-align: center;
-    }
-}
-
-
 #fade-out-photo {
     display: block;
     width: 100%;
@@ -367,24 +250,7 @@ Though the images, linear-gradient values, and button differ from those given on
     padding-bottom: 20%;
 }
 
-@media only screen and (min-width:60rem) {
-#fade-out-photo {
-    padding-bottom: 10%;
-    }
-}
-
 /************************************Sights page ***********************************/
-@media only screen and (max-width:43rem) and (min-width:41rem) {
-#sights-intro  {
-    padding-top: 10%;
-    }
-}
-
-@media only screen and (max-height:74rem) and (min-height:73.5rem) {
-#sights-intro  {
-    padding-top: 1%;
-    }
-}
 
 .figure {
   text-align: center;
@@ -418,12 +284,6 @@ Though the images, linear-gradient values, and button differ from those given on
     font-size: 250%
 }
 
-@media only screen and (min-width:60rem) {
-.figure fig-caption {
-    font-size: 300%;
-    }
-}
-
 .caption-vertical {
     left: 30%;
     font-size: 200%;
@@ -444,13 +304,6 @@ Though the images, linear-gradient values, and button differ from those given on
     font-size: 250%;
 }
 
-@media only screen and (min-width:60rem) {
-.sight-type h3 {
-    font-weight: bold;
-    font-size: 300%;
-    }
-}
-
 .sight-type p {
     text-align: left;
     margin-left: 2%;
@@ -467,23 +320,9 @@ Though the images, linear-gradient values, and button differ from those given on
     text-align: center;
 }
 
-@media only screen and (min-width:60rem) {
-.sight h4 {
-    font-weight: bold;
-    font-size: 200%;
-    }
-}
-
 .sight p {
     text-align: left;
     margin: 1% 2% 0% 2%;
-}
-
-@media only screen and (min-width:60rem) {
-.sight-type p, 
-.sight p {
-    font-size: 150%;
-    }
 }
 
 .sight-img {
@@ -502,4 +341,134 @@ Though the images, linear-gradient values, and button differ from those given on
   margin-right: auto;
   margin-bottom: 3%;
   margin-top: 3%;
+}
+
+
+/************************************ Media queries ***********************************/
+@media only screen and (max-width:290px) {
+.page-intro {
+    margin-top: 8rem;
+    }
+}
+
+@media only screen and (min-width:40rem, max-width:45rem) {
+.navbar {
+    padding-bottom: 0;
+    }
+}
+
+@media only screen and (min-width:45rem) {
+    .page-intro h1 {
+        font-size: 450%;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+@media only screen and (min-width:40rem) {
+    .page-intro p {
+        font-size: 150%;
+    }
+}
+
+@media only screen and (max-width:43rem) and (min-width:41rem) {
+#books-intro  {
+    padding-top: 12%;
+    }
+}
+
+@media only screen and (max-height:74rem) and (min-height:73.5rem) {
+#books-intro  {
+    padding-top: 1%;
+    }
+}
+
+@media only screen and (max-width:43rem) and (min-width:41rem) {
+#sights-intro  {
+    padding-top: 10%;
+    }
+}
+
+@media only screen and (max-height:74rem) and (min-height:73.5rem) {
+#sights-intro  {
+    padding-top: 1%;
+    }
+}
+
+
+@media only screen and (min-width:60rem) {
+.genre-navbar {
+    margin-bottom: 0;
+    padding-bottom: 1%;
+    }
+.buy-now-btn {
+    margin: 0.1rem 0 0.1rem 0.3rem;
+    text-align: center;
+    }
+.top-return {
+    padding: 1%;
+    }
+
+#hero-image {
+     background-image:linear-gradient(rgb(103, 98, 98), rgba(17, 17, 17, 0.5)), url("https://cdn.pixabay.com/photo/2019/04/22/08/58/edinburgh-4146031_1280.jpg");
+    }
+#landing-page-heading {
+        margin-bottom: 5rem;
+    }
+.genre {
+    padding: 3% 0 0 1%;
+    }
+.book {
+    padding: 1%;
+    display: block;
+    }
+.book p {
+    padding-bottom: 3%;
+    padding-top: 0.2rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    }
+.book h4 {
+    padding-top: 4%;
+    }
+.book-img {
+    max-width: 17%;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 2%;
+    width: 50%;
+    }
+.genre h3 {
+    font-weight: bold;
+    font-size: 5rem;
+    }
+#classics {
+    margin-top: 4%;
+    }
+#closing p {
+    padding: 1%;
+    text-align: center;
+    }
+#fade-out-photo {
+    padding-bottom: 10%;
+    }
+.figure fig-caption {
+    font-size: 300%;
+    }
+.sight-type h3 {
+    font-weight: bold;
+    font-size: 5rem;
+    }
+.sight h4 {
+    font-weight: bold;
+    font-size: 4rem;
+    }
+.sight-type p, 
+.sight p {
+    font-size: 2.5rem;
+    }
 }
