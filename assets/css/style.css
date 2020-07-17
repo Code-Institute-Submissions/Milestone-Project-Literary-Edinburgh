@@ -97,11 +97,15 @@ p em {
 .buy-now-btn {
     display: inline;
     font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #0c489f;
    
 }
 
 .buy-now-btn:hover {
-    text-transform: uppercase;
+    font-size: 4rem;
+    color: #0c489f;
+    text-decoration: none;
 }
 
 .top-return {
