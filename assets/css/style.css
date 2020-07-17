@@ -5,7 +5,7 @@
     font-size: 10px;
 }
 
-/*****************Font sizes*********************/
+/*****************Default font sizes*********************/
 
 h1 {
     font-size:5.5rem;
@@ -31,6 +31,14 @@ p {
     font-size:1.5rem;
 }
 
+p a {
+    font-size:1.5rem;
+}
+
+p em {
+    font-size:1.5rem;
+}
+
 /*****************Navbars*********************/
 
 .navbar {
@@ -46,7 +54,7 @@ p {
 }
 
 .navbar a:hover {
-    font-size: 130%;
+    font-size: 2rem;
 }
 
 .genre-navbar {
@@ -397,13 +405,31 @@ Though the images, linear-gradient values, and button differ from those given on
 
 
 @media only screen and (min-width:60rem) {
+
+.navbar a {
+    font-size: 1.8rem;
+}
+
+.navbar a:hover {
+    font-size: 2.5rem;
+}
+
+.page-intro h1 {
+    font-size: 6.5rem;
+    }
+
+.page-intro p {
+    font-size: 2.5rem;
+    }
 .genre-navbar {
     margin-bottom: 0;
     padding-bottom: 1%;
     }
+
 .buy-now-btn {
     margin: 0.1rem 0 0.1rem 0.3rem;
     text-align: center;
+    font-size: 3rem;
     }
 .top-return {
     padding: 1%;
@@ -475,5 +501,11 @@ Though the images, linear-gradient values, and button differ from those given on
     }
 .sight img {
     margin-top: 2rem;
+    }
+p a {
+    font-size:2.5rem;
+    }
+p em {
+    font-size:2.5rem;
     }
 }
