@@ -156,10 +156,10 @@ Further details are available via: https://docs.github.com/en/github/creating-cl
 
 ### Content:
 * My initial manner of linking the call to action button to the “Books” page was to include anchor tags within the button tags, but the W3C Validation Service flagged this as invalid code. As such, I changed the code to follow the format laid out by W3C Docs at: https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html
-* The linear-gradient method and centralized call to action button of the landing page were based on the design and code used for the CSS project on the following Udemy course (though the images, linear gradient values, and button, the button being from Bootstrap, themselves differ from those on that course): https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/
+* I learned how to style the linear-gradient method and centralized call to action button of the landing page on the following Udemy course (though the images, linear gradient values, and button, the button being from Bootstrap, themselves differ from those on that course): https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/
 * The social media link icons code in the footer was adapted from that in the Bootstrap mini project of the User Centric Frontend Development module. 
 * The code for the “Return to the top of the page” buttons was taken, and slightly adapted, from that given on the following web page: https://www.computerhope.com/issues/ch001475.htm#:~:text=In%20your%20HTML%20code%2C%20find%20the%20opening%20%3Cbody%3E,you%20back%20to%20the%20top%20of%20the%20page
-* The base structure for the navigation image gallery on the “Sights and activities” page is a now heavily edited version of that given on the following web page: https://www.w3schools.com/bootstrap/bootstrap_images.asp
+* I learned how to structure the navigation image gallery on the “Sights and activities" page, though it appears here as a heavily edited version with image content, text centering, brightness and hover effects coded by me, on the following web page: https://www.w3schools.com/bootstrap/bootstrap_images.asp
 * Images on the “Sights and activities” page were centered using code from the following tutorial: https://www.w3schools.com/howto/howto_css_image_center.asp
 
 ### Media:

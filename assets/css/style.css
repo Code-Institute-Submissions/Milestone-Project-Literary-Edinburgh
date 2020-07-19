@@ -147,7 +147,8 @@ p em {
     
 }
 
-/*Adapted from a tutorial on the following Udemy course: https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/ 
+/*I learned how to set the linear gradient over a background image and to center a text box and call to action button on the following Udemy course: 
+https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/ 
 Though the images, linear-gradient values, and button differ from those given on the course*/
 
 .hero-text-box {
@@ -169,7 +170,7 @@ Though the images, linear-gradient values, and button differ from those given on
     left: 0;
 }
 
-/*adapted from Resume mini-project*/
+/*Social links adapted from Resume mini-project*/
 
 .social-links li a i {
     width: 3.2rem;
@@ -188,7 +189,7 @@ Though the images, linear-gradient values, and button differ from those given on
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: red;
 }
 
 #footer-details {
