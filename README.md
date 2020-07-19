@@ -28,52 +28,45 @@ In its present form, Literary Edinburgh is designed for a post-Corona world, in 
 ## Features: Existing features
 
 ##### All pages
-•	The fixed navigation bar allows users to easily navigate the pages of the site by giving them quick access to the navbar regardless of how far they may have scrolled down any one page.
-•	The fixed footer allows users to easily access related social media pages by giving them quick access to the footer without having to scroll to the bottom of a long page.
+* The fixed navigation bar allows users to easily navigate the pages of the site by giving them quick access to the navbar regardless of how far they may have scrolled down any one page.
+* The fixed footer allows users to easily access related social media pages by giving them quick access to the footer without having to scroll to the bottom of a long page.
 
 ##### Index.html
-•	Using media queries, the background image of the landing page changes from a landscape of Arthur’s Seat and Edinburgh’s city centre on large devices to a more vertical image of one of Edinburgh's picturesque closes on smaller devices. This enables users to have a more visually pleasing experience of the site by giving them an image which best suits their device.
-•	The call to action button entitled ‘Get me reading’ enables readers to jump straight to the books page by offering them a visually prominent alternative to the navigation bar.
+* Using media queries, the background image of the landing page changes from a landscape of Arthur’s Seat and Edinburgh’s city centre on large devices to a more vertical image of one of Edinburgh's picturesque closes on smaller devices. This enables users to have a more visually pleasing experience of the site by giving them an image which best suits their device.
+* The call to action button entitled ‘Get me reading’ enables readers to jump straight to the books page by offering them a visually prominent alternative to the navigation bar.
 
 ##### books.html and sights.html
-•	By offering them a quick inner-page hyperlink, the ‘Return to the top of the page’ button after each genre category allows users to avoid scrolling for a long time to return to the top of the page.
-•	The ‘fade-out-photo’ provides a buffer at the end of each page and allows users to read the text at the bottom of the pages by ensuring that this text is not covered by the social media links in the footer.
+* By offering them a quick inner-page hyperlink, the ‘Return to the top of the page’ button after each genre category allows users to avoid scrolling for a long time to return to the top of the page.
+* The ‘fade-out-photo’ provides a buffer at the end of each page and allows users to read the text at the bottom of the pages by ensuring that this text is not covered by the social media links in the footer.
 
 ##### books.html 
-•	The internal page navigation bar allows users to easily browse books by genre by providing inner-page hyperlinks, and, thus to avid scrolling down the page if they so wish.
-•	The book descriptions allow users to decide whether they are reading a particular book by giving a brief background and plot summary of each.
-•	The ‘Buy now!’ buttons enable users to purchase a book by providing a direct link to that book’s Amazon page.
+* The internal page navigation bar allows users to easily browse books by genre by providing inner-page hyperlinks, and, thus to avid scrolling down the page if they so wish.
+* The book descriptions allow users to decide whether they are reading a particular book by giving a brief background and plot summary of each.
+* The ‘Buy now!’ buttons enable users to purchase a book by providing a direct link to that book’s Amazon page.
 
 ##### sights.html 
-•	The internal page navigation bar, aided by images, allows users to quickly jump to one of the five categories of sights and activities on the page by providing an inner-page hyperlink to each. 
-•	The descriptions of each sight or activity allow users to decide what they would like to see or do in Edinburgh by giving a brief overview of each.
-•	The hyperlinks on various sights, activities, and writers enable users to easily find out more information on issues they are interesting by opening up relevant pages on a new tab.
-•	The embedded videos allow users to find out further information on sights and activities that interest them by watching these videos without having to leave the Literary Edinburgh site.
+* The internal page navigation bar, aided by images, allows users to quickly jump to one of the five categories of sights and activities on the page by providing an inner-page hyperlink to each. 
+* The descriptions of each sight or activity allow users to decide what they would like to see or do in Edinburgh by giving a brief overview of each.
+* The hyperlinks on various sights, activities, and writers enable users to easily find out more information on issues they are interesting by opening up relevant pages on a new tab.
+* The embedded videos allow users to find out further information on sights and activities that interest them by watching these videos without having to leave the Literary Edinburgh site.
 
 
 ## Features: Features left to implement
-•	Given that Literary Edinburgh is conceptualized as static shoulder marketing to the official Edinburgh tourist site *This is Edinburgh: Official Guide to Edinburgh* (https://edinburgh.org/), no “About” or “Contact” pages were included, since contact and overall information would best be delivered on the main site. However, were Literary Edinburgh to become a standalone site with a working marketing team. “About” and “Contact” pages would be among the first additions.
-•	An ‘Authors’ page comprised of an image gallery of Edinburgh authors. Clicking an author’s image would take the user to an in-site biography and bibliography of the author, including relevant embedded videos and external links.
-•	A platform for Edinburgh authors to perform their work and to discuss it with readers through live streams.
-•	A "Local bookshops" page with information on and images of local Edinburgh bookshops. Once I have acquired the skills to do so, an embedded mapping API can assist users in locating each shop.
-•	Integrating a mapping API for the“Sights and activities” to assist users in finding each sight /activity.
-•	Develop a social media presence.
+* Given that Literary Edinburgh is conceptualized as static shoulder marketing to the official Edinburgh tourist site *This is Edinburgh: Official Guide to Edinburgh* (https://edinburgh.org/), no “About” or “Contact” pages were included, since contact and overall information would best be delivered on the main site. However, were Literary Edinburgh to become a standalone site with a working marketing team. “About” and “Contact” pages would be among the first additions.
+* An ‘Authors’ page comprised of an image gallery of Edinburgh authors. Clicking an author’s image would take the user to an in-site biography and bibliography of the author, including relevant embedded videos and external links.
+* A platform for Edinburgh authors to perform their work and to discuss it with readers through live streams.
+* A "Local bookshops" page with information on and images of local Edinburgh bookshops. Once I have acquired the skills to do so, an embedded mapping API can assist users in locating each shop.
+* Integrating a mapping API for the“Sights and activities” to assist users in finding each sight /activity.
+* Develop a social media presence.
 
 ## Technologies used
-•	GitHub: https://github.com/
-o	GitHub was used to host the application’s repositories.
-•	GitPod: https://www.gitpod.io/
-o	GitPod served as the integrated development environment used to code the site.
-•	HTML: https://developer.mozilla.org/en-US/docs/Web/HTML
-o	The website uses HTML to input the structure and content.
-•	CSS: https://developer.mozilla.org/en-US/docs/Web/CSS
-o	The website uses CSS to style the HTML elements.
-•	Bootstrap 4: https://getbootstrap.com/
-o	The website uses the Bootstrap 4 framework to simplify the integration and styling of responsive elements.
-•	Google Fonts: https://fonts.google.com/
-o	The site uses Google Fonts to integrate the Lato and Amatic SC fonts into the website.
-•	Fontawesome: https://fontawesome.com/
-o	The site uses Font Awesome to integrate social media icons into the footer.
+* GitHub was used to host the application’s repositories: https://github.com/
+* GitPod served as the IDE on which the site was coded: https://www.gitpod.io/
+* The website uses HTML to input the structure and content: https://developer.mozilla.org/en-US/docs/Web/HTML
+* The website uses CSS to style the HTML elements: https://developer.mozilla.org/en-US/docs/Web/CSS
+* The website uses the Bootstrap 4 framework to simplify the integration and styling of responsive elements: Bootstrap 4: https://getbootstrap.com/
+* The site uses Google Fonts to integrate the Lato and Amatic SC fonts into the website: https://fonts.google.com/
+* The site uses Font Awesome to integrate social media icons into the footer: https://fontawesome.com/
 
 ## Testing
 
@@ -82,25 +75,28 @@ To ensure that the site contains valid HTML, the HTML code was checked by direct
 To ensure valid CSS, direct input via the W3C CSS Validation Service was used: https://jigsaw.w3.org/css-validator/
 
 To test functionality across various devices, I used the web developer tools inspection feature of each of the following browsers:
-•	Google Chrome
-•	Mozilla Firefox
-•	Microsoft Edge
-•	Microsoft Opera
+* Google Chrome
+* Mozilla Firefox
+* Microsoft Edge
+* Microsoft Opera
 
 I manually checked all the pages and features of the website (navigation, links, buttons, hover effects, embedded videos) across all device simulations that each browser offers. In all cases, the site now appears to function as desired. Initially, the “Monuments” navigation image of the “Sights and activities” page did not appear as desired on one device, having not filled the entire screen width on “Laptop with HiDPI screen” according to Chrome developer tools. The simplest solution for this was to find an almost identical image of greater width, which now fills the entire width across all devices.
 
 In addition to checking functionality using browser developer tools, the site has been manually checked and found to function as desired on the following devices:
-•	Laptops (checked by both myself and my wife, Anita):
-o	Lenovo Yoga 530
-o	HP 255 G5 Notebook
-•	Tablets:
-o	Kindle Fire 3 HD (checked by both myself and my wife, Anita)
-o	iPad mini 3 (checked by my father, George)
-•	Smartphones:
-o	Samsung Galaxy J4+ (checked by myself)
-o	Samsung A50 (checked by my wife, Anita)
-o	iPhone 6+ (checked by my friend, Julia)
-o	iPhone XR (checked by my brother, Greg)
+
+Laptops (checked by both myself and my wife, Anita):
+* Lenovo Yoga 530
+* HP 255 G5 Notebook
+
+Tablets:
+* Kindle Fire 3 HD (checked by both myself and my wife, Anita)
+* iPad mini 3 (checked by my father, George)
+
+Smartphones:
+* Samsung Galaxy J4+ (checked by myself)
+* Samsung A50 (checked by my wife, Anita)
+* iPhone 6+ (checked by my friend, Julia)
+* iPhone XR (checked by my brother, Greg)
 
 Initially, some styling problems, particularly overly large spacing between text sections, was a problem on some devices. But this has been resolved using media queries. In the case of the “Books” page, having the book cover image on the left and the descriptive text on the right left too much white space and an unwieldy look on larger screens. As such, the book cover images appear above the descriptive text on larger screens in the finished product.
 
@@ -157,22 +153,25 @@ Further details are available via: https://docs.github.com/en/github/creating-cl
 ## Credits
 
 ### Content:
-•	My initial manner of linking the call to action button to the “Books” page was to include anchor tags within the button tags, but the W3C Validation Service flagged this as invalid code. As such, I changed the code to follow the format laid out by W3C Docs at: https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html
-•	The linear-gradient method and centralized call to action button of the landing page were based on the design and code used for the CSS project on the following Udemy course (though the images, linear gradient values, and button, the button being from Bootstrap, themselves differ from those on that course): https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/
-•	The social media link icons code in the footer was adapted from that in the Bootstrap mini project of the User Centric Frontend Development module. 
-•	The code for the “Return to the top of the page” buttons was taken, and slightly adapted, from that given on the following web page: https://www.computerhope.com/issues/ch001475.htm#:~:text=In%20your%20HTML%20code%2C%20find%20the%20opening%20%3Cbody%3E,you%20back%20to%20the%20top%20of%20the%20page
-•	The base structure for the navigation image gallery on the “Sights and activities” page is a now heavily edited version of that given on the following web page: https://www.w3schools.com/bootstrap/bootstrap_images.asp
-•	Images on the “Sights and activities” page were centered using code from the following tutorial: https://www.w3schools.com/howto/howto_css_image_center.asp
+* My initial manner of linking the call to action button to the “Books” page was to include anchor tags within the button tags, but the W3C Validation Service flagged this as invalid code. As such, I changed the code to follow the format laid out by W3C Docs at: https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html
+* The linear-gradient method and centralized call to action button of the landing page were based on the design and code used for the CSS project on the following Udemy course (though the images, linear gradient values, and button, the button being from Bootstrap, themselves differ from those on that course): https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/
+* The social media link icons code in the footer was adapted from that in the Bootstrap mini project of the User Centric Frontend Development module. 
+* The code for the “Return to the top of the page” buttons was taken, and slightly adapted, from that given on the following web page: https://www.computerhope.com/issues/ch001475.htm#:~:text=In%20your%20HTML%20code%2C%20find%20the%20opening%20%3Cbody%3E,you%20back%20to%20the%20top%20of%20the%20page
+* The base structure for the navigation image gallery on the “Sights and activities” page is a now heavily edited version of that given on the following web page: https://www.w3schools.com/bootstrap/bootstrap_images.asp
+* Images on the “Sights and activities” page were centered using code from the following tutorial: https://www.w3schools.com/howto/howto_css_image_center.asp
 
 ### Media:
-•	index.html
-o	The background image comes from Pixabay.com
-•	books.html
-o	The book cover images are links to those on Amazon.co.uk. This links were made to ensure that A) all images would be the same size, B) that the links would remain secure as they come from a stable website, and C) that the images on the website would match those the users would see when taken to Amazon by the “Buy now!” button. N.B. these images, and this website as a whole, are used only for educational purposes and no copyright infringement is intended.
-o	The ‘fade-out-photo’ comes from Pixabay.com
-•	sights.html
-o	The “Landmarks” image on in the page navigation bar comes from Pexels.com. The “Monuments” image on in the page navigation bar comes from Unsplash.com. All other images come from Pixabay.com. 
-o	All videos embedded in sights.html come are hosted on YouTube.
+
+##### index.html
+* The background image comes from Pixabay.com
+
+##### books.html
+* The book cover images are links to those on Amazon.co.uk. This links were made to ensure that A) all images would be the same size, B) that the links would remain secure as they come from a stable website, and C) that the images on the website would match those the users would see when taken to Amazon by the “Buy now!” button. N.B. these images, and this website as a whole, are used only for educational purposes and no copyright infringement is intended.
+* The ‘fade-out-photo’ comes from Pixabay.com
+
+##### sights.html
+* The “Landmarks” image on in the page navigation bar comes from Pexels.com. The “Monuments” image on in the page navigation bar comes from Unsplash.com. All other images come from Pixabay.com. 
+* All videos embedded in sights.html come are hosted on YouTube.
 
 ## Acknowledgements:
 I would like to thank my wife, Anita, for being a great sounding board for ideas for this project, for proof-reading site content, for double-checking functionality across various devices, and, most of all, for putting up with my furious swearing at my laptop when my code refused to work. 
