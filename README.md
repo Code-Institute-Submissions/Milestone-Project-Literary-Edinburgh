@@ -144,7 +144,9 @@ To run the code for Literary Edinburgh locally, one may:
 
 6.	Enter the following command into the terminal:
 
-$ git clone https://github.com/RossClarkScotland/Milestone-Project-Literary-Edinburgh
+    ``` $ git clone https://github.com/RossClarkScotland/Milestone-Project-Literary-Edinburgh ```
+     
+
 
 Further details are available via: https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 
