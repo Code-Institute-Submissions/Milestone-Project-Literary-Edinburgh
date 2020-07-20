@@ -226,7 +226,7 @@ Though the images, linear-gradient values, and button differ from those given on
 
 .book-img {
     max-width: 25%;
-    height: auto%;
+    height: auto;
     padding: 1% 2% 0 2%;
     margin-right: 0.6rem;
     margin-bottom: 0;
@@ -364,9 +364,12 @@ Though the images, linear-gradient values, and button differ from those given on
     }
 }
 
-@media only screen and (min-width:40rem, max-width:45rem) {
+@media only screen and (min-width:40rem) {
 .navbar {
     padding-bottom: 0;
+    }
+.page-intro p {
+        font-size: 150%;
     }
 }
 
@@ -378,11 +381,6 @@ Though the images, linear-gradient values, and button differ from those given on
     }
 }
 
-@media only screen and (min-width:40rem) {
-    .page-intro p {
-        font-size: 150%;
-    }
-}
 
 @media only screen and (max-width:43rem) and (min-width:41rem) {
 #books-intro  {
