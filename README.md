@@ -8,7 +8,7 @@ NOTE: A full user experience design document, detailing the five planes of desig
 
 Edinburgh thrives on cultural tourism, most notably through its many festivals in August, e.g. the International Book Festival, the Fringe Festival, and The International Festival. Such events draw huge numbers of tourists with disposable income and a keen interest in culture and the arts to Edinburgh each year. These cultural tourists form the primary target group for Literary Edinburgh. As such, the site aims to cater to cultural tourists who are already visiting or interested in visiting Edinburgh in August.
 
-In its present form, Literary Edinburgh is designed for a post-Corona world, in which tourism and event restrictions have returned to normality. However, should the current situation persist in the long-term, the“Books” page enables users to discover Edinburgh through fiction. And in such a context the site could be modified to involve virtual literary tours or act as a platform for writers to perform and discuss their work. This will be discussed further in the‘Features' section.
+In its current form, Literary Edinburgh is designed for a post-Corona world, in which tourism and event restrictions have returned to normality. However, should the current situation persist in the long-term, the“Books” page enables users to discover Edinburgh through fiction. And in such a context the site could be modified to involve virtual literary tours or act as a platform for writers to perform and discuss their work. This will be discussed further in the‘Features' section.
 
 ### User stories
 
