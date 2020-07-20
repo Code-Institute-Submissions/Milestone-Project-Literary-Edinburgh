@@ -160,7 +160,7 @@ Further details are available via: https://docs.github.com/en/github/creating-cl
 * The social media link icons code in the footer was adapted from that in the Bootstrap mini project of the User Centric Frontend Development module. 
 * The code for the “Return to the top of the page” buttons was taken, and slightly adapted, from that given on the following web page: https://www.computerhope.com/issues/ch001475.htm#:~:text=In%20your%20HTML%20code%2C%20find%20the%20opening%20%3Cbody%3E,you%20back%20to%20the%20top%20of%20the%20page
 * I learned how to structure the navigation image gallery on the “Sights and activities" page, though it appears here as a heavily edited version with image content, text centering, brightness and hover effects coded by me, on the following web page: https://www.w3schools.com/bootstrap/bootstrap_images.asp
-* Images on the “Sights and activities” page were centered using code from the following tutorial: https://www.w3schools.com/howto/howto_css_image_center.asp
+* Images on the “Sights and activities” page were centered using code I learned in the following tutorial: https://www.w3schools.com/howto/howto_css_image_center.asp
 
 ### Media:
 
