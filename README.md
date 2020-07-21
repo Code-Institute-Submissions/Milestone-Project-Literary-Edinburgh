@@ -129,7 +129,7 @@ The “Sights and activities” page contains descriptions of, hyperlinks to, an
 The “Sights and activities” page contains hyperlinks to, and embedded videos on the National Library of Scotland, The Edinburgh International Book Festival, The Writers’ Museum, and The Scottish Storytelling Center, all of which offer ample reading material for anyone interested.
 
 ## Deployment
-I deployed Literary Edinburgh to GitHub Pages, avaible at: https://rossclarkscotland.github.io/Milestone-Project-Literary-Edinburgh/. To do so, I opened the project repository on GitHub, opened the Settings, and scrolled down to the GitHub Pages section. To build the site, I selected the Master Branch option from the drop down menu of sources. GitHub then published Literary Edinburgh to GitHub Pages.
+I deployed Literary Edinburgh to GitHub Pages, available at: https://rossclarkscotland.github.io/Milestone-Project-Literary-Edinburgh/. To do so, I opened the project repository on GitHub, opened the Settings, and scrolled down to the GitHub Pages section. To build the site, I selected the Master Branch option from the drop down menu of sources. GitHub then published Literary Edinburgh to GitHub Pages.
 
 To run the code for Literary Edinburgh locally, one may:
 1.	Open the main page of the repository at: https://github.com/RossClarkScotland/Milestone-Project-Literary-Edinburgh
