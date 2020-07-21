@@ -358,11 +358,6 @@ Though the images, linear-gradient values, and button differ from those given on
 
 
 /************************************ Media queries ***********************************/
-@media only screen and (max-width:290px) {
-.page-intro {
-    margin-top: 8rem;
-    }
-}
 
 @media only screen and (min-width:40rem) {
 .navbar {
@@ -510,5 +505,11 @@ p a {
     }
 p em {
     font-size:2.5rem;
+    }
+}
+
+@media only screen and (max-width:290px) {
+.page-intro {
+    margin-top: 8rem;
     }
 }
