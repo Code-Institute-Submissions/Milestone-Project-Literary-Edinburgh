@@ -140,7 +140,7 @@ p em {
 
 #hero-image {
 
-    background-image:linear-gradient(rgb(60, 60, 60), rgba(17, 17, 17, 0.5)), url("https://cdn.pixabay.com/photo/2017/05/09/09/15/edinburgh-2297668_1280.jpg");
+    background-image:linear-gradient(rgb(60, 60, 60), rgba(17, 17, 17, 0.5)), url("../images/close.jpg");
     width: 100vw;
     height: 100vh;
     background-size: 100% 100%;
@@ -434,7 +434,7 @@ Though the images, linear-gradient values, and button differ from those given on
     }
 
 #hero-image {
-     background-image:linear-gradient(rgb(103, 98, 98), rgba(17, 17, 17, 0.5)), url("https://cdn.pixabay.com/photo/2019/04/22/08/58/edinburgh-4146031_1280.jpg");
+     background-image:linear-gradient(rgb(103, 98, 98), rgba(17, 17, 17, 0.5)), url("../images/herolarge.jpg");
     }
 #landing-page-heading {
         margin-bottom: 5rem;

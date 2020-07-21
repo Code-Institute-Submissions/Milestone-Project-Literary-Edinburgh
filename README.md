@@ -4,7 +4,7 @@ Literary Edinburgh is the minimum viable product of a mobile-first web applicati
 
 ## UX
 
-NOTE: A full user experience design document, detailing the five planes of design for Literary Edinburgh appears as a separate PDF. The Following UX section in the present document provides an overview.
+NOTE: A full user experience design document, detailing the five planes of design for Literary Edinburgh appears as a separate PDF (available here: https://github.com/RossClarkScotland/Milestone-Project-Literary-Edinburgh/blob/master/User%20Experience%20M1.pdf). The Following UX section in the present document provides an overview.
 
 Edinburgh thrives on cultural tourism, most notably through its many festivals in August, e.g. the International Book Festival, the Fringe Festival, and The International Festival. Such events draw huge numbers of tourists with disposable income and a keen interest in culture and the arts to Edinburgh each year. These cultural tourists form the primary target group for Literary Edinburgh. As such, the site aims to cater to cultural tourists who are already visiting or interested in visiting Edinburgh in August.
 
@@ -129,7 +129,7 @@ The “Sights and activities” page contains descriptions of, hyperlinks to, an
 The “Sights and activities” page contains hyperlinks to, and embedded videos on the National Library of Scotland, The Edinburgh International Book Festival, The Writers’ Museum, and The Scottish Storytelling Center, all of which offer ample reading material for anyone interested.
 
 ## Deployment
-I deployed Literary Edinburgh to GitHub Pages. To do so, I opened the project repository on GitHub, opened the Settings, and scrolled down to the GitHub Pages section. To build the site, I selected the Master Branch option from the drop down menu of sources. GitHub then published Literary Edinburgh to GitHub Pages.
+I deployed Literary Edinburgh to GitHub Pages, avaible at: https://rossclarkscotland.github.io/Milestone-Project-Literary-Edinburgh/. To do so, I opened the project repository on GitHub, opened the Settings, and scrolled down to the GitHub Pages section. To build the site, I selected the Master Branch option from the drop down menu of sources. GitHub then published Literary Edinburgh to GitHub Pages.
 
 To run the code for Literary Edinburgh locally, one may:
 1.	Open the main page of the repository at: https://github.com/RossClarkScotland/Milestone-Project-Literary-Edinburgh
