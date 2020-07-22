@@ -99,7 +99,7 @@ Smartphones:
 * iPhone 6+ (checked by my friend, Julia)
 * iPhone XR (checked by my brother, Greg)
 
-##Bugs and solutions
+## Bugs and solutions
 
 Initially, some styling problems, particularly overly large spacing between text sections, was a problem on some devices. But this has been resolved using media queries. In the case of the “Books” page, having the book cover image on the left and the descriptive text on the right left too much white space and an unwieldy look on larger screens. As such, the book cover images appear above the descriptive text on larger screens in the finished product.
 
