@@ -81,7 +81,7 @@ To test functionality across various devices, I used the web developer tools ins
 * Microsoft Edge
 * Microsoft Opera
 
-I manually checked all the pages and features of the website (navigation, links, buttons, hover effects, embedded videos) across all device simulations that each browser offers. In all cases, the site now appears to function as desired. Initially, the “Monuments” navigation image of the “Sights and activities” page did not appear as desired on one device, having not filled the entire screen width on “Laptop with HiDPI screen” according to Chrome developer tools. The simplest solution for this was to find an almost identical image of greater width, which now fills the entire width across all devices.
+I manually checked all the pages and features of the website (navigation, links, buttons, hover effects, embedded videos) across all device simulations that each browser offers. In all cases, the site now appears to function as desired. 
 
 In addition to checking functionality using browser developer tools, the site has been manually checked and found to function as desired on the following devices:
 
@@ -99,11 +99,17 @@ Smartphones:
 * iPhone 6+ (checked by my friend, Julia)
 * iPhone XR (checked by my brother, Greg)
 
+##Bugs and solutions
+
 Initially, some styling problems, particularly overly large spacing between text sections, was a problem on some devices. But this has been resolved using media queries. In the case of the “Books” page, having the book cover image on the left and the descriptive text on the right left too much white space and an unwieldy look on larger screens. As such, the book cover images appear above the descriptive text on larger screens in the finished product.
 
-Once I had deployed Literary Edinburgh to GitHub Pages, the site navigation did not work unless the project GitPod workspace was running. It emerged that I had entered the links incorrectly, hardcoding them using the URLs that appeared on the GitPod preview. The problem was then resolved once the correct navigation links were entered.by These corrections were made before the project's submission and now appear on the deployed site.
+Once I had deployed Literary Edinburgh to GitHub Pages, the site navigation did not work unless the project GitPod workspace was running. It emerged that I had entered the links incorrectly, hardcoding them using the URLs that appeared on the GitPod preview. The problem was then resolved once the correct navigation links were entered.These corrections were made before the project's submission and now appear on the deployed site.
 
-Shortly before the project's submission, I discovered that the image-based navigation bar on the "Sights" page did not maintain its integrity up to screen widths of 3840, due to the images themselves having different sizes. This was resolved by resizing the images. However, the original navigation layout, consisting of two landscape images stacked on top of each other and three vertical images side by side, lost its aesthitic appeal at very large screen widths because there was too much white space between the three vertical images. As such, I decided to edit the grid to use all landscape images and to place those images next to one another, i.e. each image taking Bootsrap Grid 6 columns. To facilitate this, I also added a sixth section, "Bookshops", to the page so that there would be an even six side-by-side images in the navigation bar. All changes were made prior to the project's submission. 
+Shortly before the project's submission, I discovered that the image-based navigation bar on the "Sights" page did not maintain its integrity up to screen widths of 3840, due to the images themselves having different sizes. This was resolved by resizing the images. However, the original navigation layout, consisting of two landscape images stacked on top of each other and three vertical images side by side, lost its aesthetic appeal at very large screen widths because there was too much white space between the three vertical images. As such, I decided to edit the grid to use all landscape images and to place those images next to one another, i.e. each image taking Bootsrap Grid 6 columns. To facilitate this, I also added a sixth section, "Bookshops", to the page so that there would be an even six side-by-side images in the navigation bar. All changes were made prior to the project's submission. 
+
+The updated navigation gallery (of six horizontal images next to one another) at first lost its integrity on screen widths of 3820px and above, with two image pairs having white space between them while the third image pair contained no white space. This was resolved by placing all gallery images in one row, instead of the multiple rows I had initially used. The gallery now has the same, aesthetically appealing, white space gap between all image pairs at widths of 3840, at least according to the developer tools of all four browsers used in the testing. However, at widths greater than 3840 the white space becomes too great and loses aesthetic appeal. As such, although the navigation gallery complies with the project criteria of the page maintaining its integrity at widths of up to 3840px, there could potentially still be problems on screens of even greater widths.
+
+While coding, I did not have access to any very wide screens, e.g. 3000px or above. The media queries I applied for such screens were calculated by editing in the browser using developer tools. As such, these media queries are to some extent (educated) guesswork.
 
 ### How the site meets user needs
 
