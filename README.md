@@ -40,14 +40,14 @@ In its current form, Literary Edinburgh is designed for a post-Corona world, in 
 * The ‘fade-out-photo’ provides a buffer at the end of each page and allows users to read the text at the bottom of the pages by ensuring that this text is not covered by the social media links in the footer.
 
 ##### books.html 
-* The internal page navigation bar allows users to easily browse books by genre by providing inner-page hyperlinks, and, thus to avid scrolling down the page if they so wish.
+* The internal page navigation bar allows users to easily browse books by genre by providing inner-page hyperlinks, and, thus to avoid scrolling down the page if they so wish.
 * The book descriptions allow users to decide whether they are reading a particular book by giving a brief background and plot summary of each.
 * The ‘Buy now!’ buttons enable users to purchase a book by providing a direct link to that book’s Amazon page.
 
 ##### sights.html 
 * The internal page navigation bar, aided by images, allows users to quickly jump to one of the five categories of sights and activities on the page by providing an inner-page hyperlink to each. 
 * The descriptions of each sight or activity allow users to decide what they would like to see or do in Edinburgh by giving a brief overview of each.
-* The hyperlinks on various sights, activities, and writers enable users to easily find out more information on issues they are interesting by opening up relevant pages on a new tab.
+* The hyperlinks on various sights, activities, and writers enable users to easily find out more information on issues they find interesting by opening up relevant pages on a new tab.
 * The embedded videos allow users to find out further information on sights and activities that interest them by watching these videos without having to leave the Literary Edinburgh site.
 
 
@@ -105,9 +105,9 @@ Initially, some styling problems, particularly overly large spacing between text
 
 Once I had deployed Literary Edinburgh to GitHub Pages, the site navigation did not work unless the project GitPod workspace was running. It emerged that I had entered the links incorrectly, hardcoding them using the URLs that appeared on the GitPod preview. The problem was then resolved once the correct navigation links were entered.These corrections were made before the project's submission and now appear on the deployed site.
 
-Shortly before the project's submission, I discovered that the image-based navigation bar on the "Sights" page did not maintain its integrity up to screen widths of 3840, due to the images themselves having different sizes. This was resolved by resizing the images. However, the original navigation layout, consisting of two landscape images stacked on top of each other and three vertical images side by side, lost its aesthetic appeal at very large screen widths because there was too much white space between the three vertical images. As such, I decided to edit the grid to use all landscape images and to place those images next to one another, i.e. each image taking Bootsrap Grid 6 columns. To facilitate this, I also added a sixth section, "Bookshops", to the page so that there would be an even six side-by-side images in the navigation bar. All changes were made prior to the project's submission. 
+Shortly before the project's submission, I discovered that the image-based navigation bar on the "Sights" page did not maintain its integrity up to screen widths of 3840, due to the images themselves having different sizes. This was resolved by resizing the images. However, the original navigation layout, consisting of two landscape images stacked on top of each other and three vertical images side by side, lost its aesthetic appeal at very large screen widths because there was too much white space between the three vertical images. As such, I decided to edit the grid to use all landscape images and to place those images next to one another, i.e. each image taking up six Bootsrap Grid  columns. To facilitate this, I also added a sixth section, "Bookshops", to the page so that there would be an even six side-by-side images in the navigation bar. All changes were made prior to the project's submission. 
 
-The updated navigation gallery (of six horizontal images next to one another) at first lost its integrity on screen widths of 3820px and above, with two image pairs having white space between them while the third image pair contained no white space. This was resolved by placing all gallery images in one row, instead of the multiple rows I had initially used. The gallery now has the same, aesthetically appealing, white space gap between all image pairs at widths of 3840, at least according to the developer tools of all four browsers used in the testing. However, at widths greater than 3840 the white space becomes too great and loses aesthetic appeal. As such, although the navigation gallery complies with the project criteria of the page maintaining its integrity at widths of up to 3840px, there could potentially still be problems on screens of even greater widths.
+The updated navigation gallery (of six horizontal images next to one another) at first lost its integrity on screen widths of 3820px and above, with two image pairs having white space between them while the third image pair contained no white space. This was resolved by placing all gallery images in one row, instead of the multiple rows I had initially used. The gallery now has the same, aesthetically appealing, white space gap between all image pairs at widths of 3820-3840, at least according to the developer tools of all four browsers used in the testing. However, at widths rather greater than 3840 the white space becomes too large and the gallery's aesthetic appeal diminishes. As such, although the navigation gallery complies with the project criteria of the page maintaining its integrity at widths of up to 3840px, there could potentially still be problems on screens of even greater widths.
 
 While coding, I did not have access to any very wide screens, e.g. 3000px or above. The media queries I applied for such screens were calculated by editing in the browser using developer tools. As such, these media queries are to some extent (educated) guesswork.
 
@@ -168,7 +168,7 @@ Further details are available via: https://docs.github.com/en/github/creating-cl
 * I learned how to style the linear-gradient method and centralized call to action button of the landing page on the following Udemy course (though the images, linear gradient values, and button, the button being from Bootstrap, themselves differ from those on that course): https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/
 * The social media link icons code in the footer was adapted from that in the Bootstrap mini project of the User Centric Frontend Development module. 
 * The code for the “Return to the top of the page” buttons was taken, and slightly adapted, from that given on the following web page: https://www.computerhope.com/issues/ch001475.htm#:~:text=In%20your%20HTML%20code%2C%20find%20the%20opening%20%3Cbody%3E,you%20back%20to%20the%20top%20of%20the%20page
-* I learned how to structure the navigation image gallery on the “Sights and activities" page, though it appears here as a heavily edited version with image content, text centering, brightness and hover effects coded by me, on the following web page: https://www.w3schools.com/bootstrap/bootstrap_images.asp
+* I learned how to structure the navigation image gallery on the “Sights and activities" page, though it appears here as a heavily edited version with row and column structure, image content, text centering, brightness and hover effects coded by me, on the following web page: https://www.w3schools.com/bootstrap/bootstrap_images.asp
 * Images on the “Sights and activities” page were centered using code I learned in the following tutorial: https://www.w3schools.com/howto/howto_css_image_center.asp
 
 ### Media:
@@ -183,6 +183,7 @@ Further details are available via: https://docs.github.com/en/github/creating-cl
 ##### sights.html
 * The “Landmarks” image on in the page navigation bar comes from Pexels.com. The “Monuments” image on in the page navigation bar comes from Unsplash.com. All other images come from Pixabay.com. 
 * All videos embedded in sights.html come are hosted on YouTube.
+* The ‘fade-out-photo’ comes from Pixabay.com
 
 ## Acknowledgements:
 I would like to thank my wife, Anita, for being a great sounding board for ideas for this project, for proof-reading site content, for double-checking functionality across various devices, and, most of all, for putting up with my furious swearing at my laptop when my code refused to work. 
