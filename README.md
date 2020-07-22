@@ -67,6 +67,7 @@ In its current form, Literary Edinburgh is designed for a post-Corona world, in 
 * The website uses the Bootstrap 4 framework to simplify the integration and styling of responsive elements: Bootstrap 4: https://getbootstrap.com/
 * The site uses Google Fonts to integrate the Lato and Amatic SC fonts into the website: https://fonts.google.com/
 * The site uses Font Awesome to integrate social media icons into the footer: https://fontawesome.com/
+* https://resizeimage.net/ Was used to compress and resize image files in order to make certain images less that 500KB and to ensure that the image-based navigation bar contains images of equal dimensions.
 
 ## Testing
 
@@ -100,7 +101,9 @@ Smartphones:
 
 Initially, some styling problems, particularly overly large spacing between text sections, was a problem on some devices. But this has been resolved using media queries. In the case of the “Books” page, having the book cover image on the left and the descriptive text on the right left too much white space and an unwieldy look on larger screens. As such, the book cover images appear above the descriptive text on larger screens in the finished product.
 
-Once I had deployed Literary Edinburgh to GitHub Pages, the site navigation did not work unless the project GitPod workspace was running. It emerged that I had entered the links incorrectly, hardcoding them using the URLs that appeared on the GitPod preview. The problem was then resolved once the correct navigation links were entered.
+Once I had deployed Literary Edinburgh to GitHub Pages, the site navigation did not work unless the project GitPod workspace was running. It emerged that I had entered the links incorrectly, hardcoding them using the URLs that appeared on the GitPod preview. The problem was then resolved once the correct navigation links were entered.by These corrections were made before the project's submission and now appear on the deployed site.
+
+Shortly before the project's submission, I discovered that the image-based navigation bar on the "Sights" page did not maintain its integrity up to screen widths of 3840, due to the images themselves having different sizes. This was resolved by resizing the images. However, the original navigation layout, consisting of two landscape images stacked on top of each other and three vertical images side by side, lost its aesthitic appeal at very large screen widths because there was too much white space between the three vertical images. As such, I decided to edit the grid to use all landscape images and to place those images next to one another, i.e. each image taking Bootsrap Grid 6 columns. To facilitate this, I also added a sixth section, "Bookshops", to the page so that there would be an even six side-by-side images in the navigation bar. All changes were made prior to the project's submission. 
 
 ### How the site meets user needs
 
@@ -126,7 +129,7 @@ The “Sights and activities” page contains descriptions of, hyperlinks to, an
 “As a major reading nerd, I always want to know where I can get my hands on books whenever I’m in a city so I know where to go if I’m in the mood to read something new.”
 
 ##### How the site meets this need:
-The “Sights and activities” page contains hyperlinks to, and embedded videos on the National Library of Scotland, The Edinburgh International Book Festival, The Writers’ Museum, and The Scottish Storytelling Center, all of which offer ample reading material for anyone interested.
+The “Sights and activities” page contains links hyperlinks to a number of Edinburgh bookshops. Additionally, there are links to, and embedded videos on, the National Library of Scotland, The Edinburgh International Book Festival, The Writers’ Museum, and The Scottish Storytelling Center, all of which offer ample reading material for anyone interested. 
 
 ## Deployment
 I deployed Literary Edinburgh to GitHub Pages, available at: https://rossclarkscotland.github.io/Milestone-Project-Literary-Edinburgh/. To do so, I opened the project repository on GitHub, opened the Settings, and scrolled down to the GitHub Pages section. To build the site, I selected the Master Branch option from the drop down menu of sources. GitHub then published Literary Edinburgh to GitHub Pages.
