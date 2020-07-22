@@ -518,3 +518,71 @@ p em {
     margin-top: 8rem;
     }
 }
+
+
+/*NOTE: While coding I did not have access to any screens of 3000px in width or above. 
+As such, I was forced to rely on Chrome and Firefox developer tools for screens of 
+those sizes, and what follows is thus guesswork to some extent.*/
+
+@media only screen and (min-width:300rem) {
+h1 {
+    font-size: 14rem;
+}
+h4 {
+    font-size: 8rem;
+}
+#hero-button {
+    font-size: 6rem;
+}
+.page-intro h1 {
+        font-size: 12rem;
+        margin-top: 10rem;
+    }
+.page-intro p {
+    font-size: 6rem;
+    }
+.navbar a {
+    font-size: 3.5rem;
+    margin-right: 5rem;
+    }
+.figure-caption {
+    font-size: 10rem;
+    }
+.sight-type p,
+.sight p {
+    font-size: 6rem;
+    }
+.sight-type h3 {
+    font-size: 10rem;
+    margin-top: 10rem;
+    }
+.sight h4 {
+    margin-top: 7.5rem;
+    }
+.top-return {
+    font-size: 4rem;
+    }
+#closing p {
+    font-size: 500%;
+    }
+.genre h3 {
+    font-size: 10rem;
+    }
+.book h4 {
+    padding-top: 0;
+    }
+.book h5 {
+    font-size: 5rem;
+    }
+.book-img {
+    max-width: 50%;
+    }
+.book p {
+    font-size: 6rem;
+    }
+.buy-now-btn {
+    font-size: 10rem;
+    }
+p em {
+    font-size: 6rem;
+    }
