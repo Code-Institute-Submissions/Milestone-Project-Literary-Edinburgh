@@ -401,6 +401,11 @@ Though the images, linear-gradient values, and button differ from those given on
     }
 }
 
+@media only screen and (min-width:300rem) {
+.figure fig-caption {
+    font-size: 1200%;
+    }
+}
 
 @media only screen and (min-width:60rem) {
 
