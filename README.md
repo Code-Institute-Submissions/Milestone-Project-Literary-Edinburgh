@@ -67,7 +67,7 @@ In its current form, Literary Edinburgh is designed for a post-Corona world, in 
 * The website uses the Bootstrap 4 framework to simplify the integration and styling of responsive elements: Bootstrap 4: https://getbootstrap.com/
 * The site uses Google Fonts to integrate the Lato and Amatic SC fonts into the website: https://fonts.google.com/
 * The site uses Font Awesome to integrate social media icons into the footer: https://fontawesome.com/
-* https://resizeimage.net/ Was used to compress and resize image files in order to make certain images less that 500KB and to ensure that the image-based navigation bar contains images of equal dimensions.
+* https://resizeimage.net/ and https://hnet.com/compress-jpeg/ were used to compress and resize image files in order to make certain images less that 500KB and to ensure that the image-based navigation bar contains images of equal dimensions.
 
 ## Testing
 
