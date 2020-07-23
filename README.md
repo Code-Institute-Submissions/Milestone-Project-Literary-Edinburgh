@@ -4,7 +4,7 @@ Literary Edinburgh is the minimum viable product of a mobile-first web applicati
 
 ## UX
 
-NOTE: A full user experience design document, detailing the five planes of design for Literary Edinburgh appears as a separate PDF (available here: https://github.com/RossClarkScotland/Milestone-Project-Literary-Edinburgh/blob/master/User%20Experience%20M1.pdf). The Following UX section in the present document provides an overview.
+NOTE: A full user experience design document, detailing the five planes of design for Literary Edinburgh appears as a separate PDF (available here: https://github.com/RossClarkScotland/Milestone-Project-Literary-Edinburgh/blob/master/User%20Experience.pdf). The Following UX section in the present document provides an overview.
 
 Edinburgh thrives on cultural tourism, most notably through its many festivals in August, e.g. the International Book Festival, the Fringe Festival, and The International Festival. Such events draw huge numbers of tourists with disposable income and a keen interest in culture and the arts to Edinburgh each year. These cultural tourists form the primary target group for Literary Edinburgh. As such, the site aims to cater to cultural tourists who are already visiting or interested in visiting Edinburgh in August.
 
