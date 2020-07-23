@@ -523,10 +523,10 @@ h1 {
 }
 h4 {
     font-size: 8rem;
-}
+    }
 #hero-button {
     font-size: 6rem;
-}
+    }
 .page-intro h1 {
         font-size: 12rem;
         margin-top: 10rem;
@@ -579,11 +579,13 @@ h4 {
 p em {
     font-size: 6rem;
     }
+}
 
 /*NOTE: This media query refers only to the Galaxy Fold device
  as shown by Chrome developer tools. For some reasons, changes 
  had no effect if made using min-width and rem, but did have the
  desired effect when max-width and px were used*/
+
 @media only screen and (max-width:290px) {
 .page-intro {
     margin-top: 8rem;
