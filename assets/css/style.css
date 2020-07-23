@@ -513,13 +513,6 @@ p em {
     }
 }
 
-@media only screen and (max-width:290px) {
-.page-intro {
-    margin-top: 8rem;
-    }
-}
-
-
 /*NOTE: While coding I did not have access to any screens of 3000px in width or above. 
 As such, I was forced to rely on Chrome and Firefox developer tools for screens of 
 those sizes, and what follows is thus guesswork to some extent.*/
@@ -545,8 +538,8 @@ h4 {
     font-size: 3.5rem;
     margin-right: 5rem;
     }
-.figure-caption {
-    font-size: 10rem;
+.figure fig-caption {
+    font-size: 1000%;
     }
 .sight-type p,
 .sight p {
@@ -586,3 +579,13 @@ h4 {
 p em {
     font-size: 6rem;
     }
+
+/*NOTE: This media query refers only to the Galaxy Fold device
+ as shown by Chrome developer tools. For some reasons, changes 
+ had no effect if made using min-width and rem, but did have the
+ desired effect when max-width and px were used*/
+@media only screen and (max-width:290px) {
+.page-intro {
+    margin-top: 8rem;
+    }
+}
